@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 
+const socials = [
+	["fab fa-github", "https://github.com/FraWolf"],
+	["fab fa-discord", "https://discord.frawolf.it"],
+	["fab fa-twitter", "https://twitter.com/FraWolf__"]
+];
+
 class Footer extends Component {
     render() {
        return(
@@ -7,7 +13,11 @@ class Footer extends Component {
 			<div className="container d-flex justify-content-center justify-content-xl-around">
 				<span className="align-middle text-muted">Copyright <a className="text-muted" href="https://top.gg/user/156851568975675392" target="_blank">FraWolf</a>.</span>
 				<div className="socials text-muted">
-					<a href="https://github.com/FraWolf"><i class="fab fa-github"></i></a>
+					{ socials && socials.length > 0 && socials.map((item, index) => (
+						<span className="single-social">
+							<a href={item[1]}><i class={item[0]}></i></a>
+						</span>
+					))}
 				</div>
 			</div>
 		</footer>
