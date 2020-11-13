@@ -1,3 +1,14 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/Aero.ttf");
+ }
+ 
+ /*
+ * {
+    font-family: myFirstFont;
+ }
+ */
+
 nav {
 	background-color: #232427;
 }
@@ -56,5 +67,14 @@ header.masthead {
 }
 
 .socials {
-	
+	color: #fff
+}
+
+.single-social {
+	margin-right: 6px;
+	font-size: 15px;
+}
+
+a.single-social {
+	color: #fff !important;
 }
