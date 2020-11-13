@@ -11,7 +11,7 @@ class Footer extends Component {
        return(
         <footer className="footer mt-auto py-3">
 			<div className="container d-flex justify-content-center justify-content-xl-around">
-				<span className="align-middle text-muted">Copyright <a className="text-muted" href="https://top.gg/user/156851568975675392" target="_blank">FraWolf</a>.</span>
+				<span className="align-middle text-muted">Copyright <a className="text-muted" href="https://top.gg/user/156851568975675392" rel="noopener noreferrer" target="_blank">FraWolf</a>.</span>
 				<div className="socials text-muted">
 					{ socials && socials.length > 0 && socials.map((item, index) => (
 						<span className="single-social">

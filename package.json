@@ -1,6 +1,6 @@
 {
-  "name": "frawolf-bot-manager",
-  "version": "1.0.1",
+  "name": "frawolf-website",
+  "version": "1.0.2",
   "description": "",
   "keywords": [],
   "main": "src/index.js",

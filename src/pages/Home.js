@@ -31,7 +31,7 @@ class Home extends Component {
                 <header className="masthead text-lg-center text-center">
                     <div className="container justify-content-center">
                         <div className="d-lg-block d-none">
-                            <img className="avatar" src={this.state.avatar} />
+                            <img className="avatar" src={this.state.avatar} alt="Avatar" />
                         </div>
                         <div>
                             <h1 className="mb-2 text-lg-center text-white">
@@ -49,7 +49,7 @@ class Home extends Component {
 
                                 <div className="discord-badge">
                                     { this.state.username !== null && this.state.badges.map(item => (
-                                    <img className="singlebadge" src={`https://discord.id/dashboard/flags/${item.id}.png`} height="30" />
+                                    <img className="singlebadge" src={`https://discord.id/dashboard/flags/${item.id}.png`} alt={item.name} height="30" />
                                     ))}
                                 </div>
                             </h1>
