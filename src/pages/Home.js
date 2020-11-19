@@ -56,7 +56,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </header>
-
+                
                 <br />
 
                 <div className="container">
@@ -73,7 +73,9 @@ class Home extends Component {
                     <div className="text-lg-center">
                         <h1> MY PROJECTS</h1>
                         <div className="projects">
-                            <h1>Enniente</h1>
+                            <p style={{ fontSize: "25px" }}>
+                                Coming Soon...
+                            </p>
                         </div>
                     </div>
                 </div>
