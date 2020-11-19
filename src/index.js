@@ -6,4 +6,4 @@ import * as serviceWorker from './serviceWorker';
 let root = document.getElementById("root");
 
 ReactDOM.render(<App />, root);
-serviceWorker.register();
+//serviceWorker.register();
