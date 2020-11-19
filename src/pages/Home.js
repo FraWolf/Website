@@ -65,7 +65,7 @@ class Home extends Component {
                         <h1> WHAT I DO</h1>
                         <p style={{ fontSize: "25px" }}>
                             I mainly develop things in Javascript (Node.js), PHP and Python. <br />
-                            Currently developing Bots for Discord & Telegram and making websites in free time.
+                            Currently developing Discord & Telegram Bots and making websites in free time.
                         </p>
                     </div>
 
