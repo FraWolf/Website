@@ -62,7 +62,7 @@ class Home extends Component {
                 <div className="container">
                     { /* What I do */ }
                     <div className="text-lg-center">
-                        <h1> WHAT I DO</h1>
+                        <h1>WHAT I DO</h1>
                         <p style={{ fontSize: "25px" }}>
                             I mainly develop things in Javascript (Node.js), PHP and Python. <br />
                             Currently developing Discord & Telegram Bots and making websites in free time.
@@ -71,7 +71,7 @@ class Home extends Component {
 
                     { /* My Projects */ }
                     <div className="text-lg-center">
-                        <h1> MY PROJECTS</h1>
+                        <h1>MY PROJECTS</h1>
                         <div className="projects">
                             <p style={{ fontSize: "25px" }}>
                                 Coming Soon...

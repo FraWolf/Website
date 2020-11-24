@@ -1,6 +1,6 @@
 {
   "name": "frawolf-website",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Personal website for FraWolf",
   "keywords": [],
   "main": "src/index.js",
