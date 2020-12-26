@@ -66,6 +66,7 @@ class Home extends Component {
                         <p style={{ fontSize: "25px" }}>
                             I mainly develop things in Javascript (Node.js), PHP and Python. <br />
                             Currently developing Discord & Telegram Bots and making websites in free time.
+                            I'm also learning <b>Solidity</b> and Blockchains.
                         </p>
                     </div>
 
