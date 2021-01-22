@@ -7,18 +7,17 @@ import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home';
+import Test from './pages/Test';
 
 class Router extends Component {
     render() {
         return(
             <BrowserRouter>
-                    <Header />
-                    <div id="content">
-                        <Switch>
-                            <Route exact path='/' component={Home} />
-                        </Switch>
-                    </div>
-                    <Footer />
+                <div id="content">
+                    <Switch>
+                        <Route exact path='/' component={Test} />
+                    </Switch>
+                </div>
             </BrowserRouter>
         );
     }
