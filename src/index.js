@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 //import * as serviceWorker from './serviceWorker';
 
-let root = document.getElementById("root");
+const rootPath = document.getElementById("root");
 
-ReactDOM.render(<App />, root);
+ReactDOM.render(<App />, rootPath);
 //serviceWorker.register();
